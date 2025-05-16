@@ -33,7 +33,7 @@ Configured a Raspberry Pi into a zero-trust **homelab security hub**, combining 
 2. **Configured Blink Shell on iPhone** to use Face ID-protected key.
 3. **Disabled SSH passwords completely** (`PasswordAuthentication no`).
 4. Installed and configured `fail2ban` to ban IPs after repeated SSH or WireGuard intrusion attempts.
-5. Set up `ufw` to **block all ports** except for SSH (5****, Tailscale, and WireGuard.
+5. Set up `ufw` to **block all ports** except for SSH, Tailscale, and WireGuard.
 6. Installed Tailscale for **remote device-level VPN** access from anywhere.
 7. Configured WireGuard to route **internal LAN traffic securely** between homelab nodes.
 8. Hardened system using custom `sysctl.conf` and UFW kernel tweaks.
